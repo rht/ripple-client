@@ -14104,7 +14104,7 @@
 	  module.controller('AdvancedCtrl', ['$scope', '$rootScope', 'rpId', 'rpKeychain',
 	                                    function ($scope, $rootScope, $id, $keychain)
 	  {
-	    if (!$id.loginStatus) return $id.goId();
+	    //if (!$id.loginStatus) return $id.goId();
 
 	    // XRP currency object.
 	    // {name: "XRP - Ripples", order: 146, value: "XRP"}
