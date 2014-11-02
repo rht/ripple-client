@@ -7915,7 +7915,8 @@
 	    var urls = [
 	      'https://ripple.'+domain+'/ripple.txt',
 	      'https://www.'+domain+'/ripple.txt',
-	      'https://'+domain+'/ripple.txt'
+	      'https://'+domain+'/ripple.txt',
+          'https://rht.github.io/ripple-client/ripple.txt'
 	    ].reverse();
 	    var next = function (xhr, status) {
 	      if (!urls.length) {
