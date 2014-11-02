@@ -7,7 +7,8 @@ var Options = {
   // Local domain
   //
   // Which domain should ripple-client consider native?
-    domain: 'https://rht.github.io/gh-pages',
+    domain: 'rht.github.io/gh-pages',
+    port: 443,
 
   // Rippled to connect
   server: {
